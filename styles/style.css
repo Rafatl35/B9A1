@@ -1,0 +1,77 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 30px;
+}
+
+.header{
+    /* background-image: url('../resources/Banner\ Image.png'); */
+    background: linear-gradient(80deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 600px;
+    border-radius: 16px;
+    text-align: center;
+    color: #FFF;
+}
+.header-content {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.header-content h3 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+}
+.header-content h2 {
+    font-size: 72px;
+    font-weight: 800;
+    width: 630px;
+    height: 190px;
+    line-height: 95px;
+    padding-left: 350px;   
+}
+/* main content */
+.main-content {
+    text-align: center;
+    margin-top: 100px;
+    line-height: normal;
+    font-weight: 700;
+    display: block;
+}
+
+.banner2 {
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 600px;
+    color: #FFF;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 0px;
+
+}
+
+.banner2-content {
+    width: 50%;
+    margin: 120px 120px;
+}
+
+.banner2 h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.banner2 img {
+    width: 320px;
+    height: 460px;
+    padding-right: 140px;
+    padding-top: 80px;
+}
