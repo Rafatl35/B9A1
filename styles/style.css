@@ -243,6 +243,7 @@ body {
 
 input {
     padding: 20px 40px;
+    border: none;
 }
 
 #inp2 {
