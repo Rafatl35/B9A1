@@ -219,8 +219,43 @@ body {
     line-height: normal;
 }
 
+.news-letter {
+    margin-top: 50px;
+    width: 1300px;
+    height: 600px;
+    background-color: rgba(216, 86, 188, 0.1);
+    text-align: center;
+    padding-top: 30px;
+}
+
+#sn1 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subscribe {
+    padding-top: 50px;
+}
+
+input {
+    padding: 20px 40px;
+}
+
+#inp2 {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    font-weight: 400;
+
+}
+
 /* footer section */
 .fot-address {
+    margin-top: 50px;
     width: 1300px;
     height: 600px;
     background-color: rgb(9, 12, 39);
